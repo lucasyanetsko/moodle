@@ -40,7 +40,7 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'pgsql';      // 'pgsql', 'mariadb', 'mysqli', 'auroramysql', 'sqlsrv' or 'oci'
 $CFG->dblibrary = 'native';     // 'native' only at the moment
-$CFG->dbhost    = 'localhost';  // eg 'localhost' or 'db.isp.com' or IP
+$CFG->dbhost    = 'postgres://default:ZJwcy2CQA0rB@ep-white-water-a4ctam6o.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require';  // eg 'localhost' or 'db.isp.com' or IP
 $CFG->dbname    = 'moodle-postgres';     // database name, eg moodle
 $CFG->dbuser    = 'admin';   // your database username
 $CFG->dbpass    = 'password';   // your database password
